@@ -12,7 +12,8 @@ public class jogo {
         this.inimigo = (player == "branca") ? new jogador("preta"): new jogador("branca");
     }
 
-    private void movimentosPossiveis(){
+    private void movimentosPossiveis(){ // ... em si o jogador move a peça dele, entao é para ter uma função lá
+                                        // contudo, essa função quem realiza não é 100% ele, entao devo executar aqui?(em jogo)
 
     }
 
